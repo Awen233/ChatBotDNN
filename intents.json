@@ -92,6 +92,10 @@
          "patterns": ["Can high school students attend", "High school", "Middle school", "Under 18", "Under eighteen", 
             "Age", "What is the requirement for age", "Requirement for age", "What age", "What age can attend"],
          "responses": ["That is no requirement for age", "Everyone is welcome", "No age requirement"]
+        },
+        {"tag": "dance",
+         "patterns": ["You can really dance", "Dance", "Let's dance", "Dancer"],
+         "responses": ["Wowwwwwwww, you can really dance"]
         }
    ]
 }
