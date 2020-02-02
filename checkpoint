@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/dingzw/chatbot/chatbot_easy/model.tflearn"
+all_model_checkpoint_paths: "/Users/dingzw/chatbot/chatbot_easy/model.tflearn"

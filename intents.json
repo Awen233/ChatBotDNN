@@ -1,0 +1,97 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "sign_in",
+         "patterns": ["log in", "sign in"],
+         "responses": ["User name please", "What is your last name"]
+        },
+        {"tag": "maker",
+         "patterns": ["Who are you", "Who make you" ,"Who is your maker","What are you"],
+         "responses": ["I am a dancer, master Ding is my maker"]
+        },
+        {"tag": "sign_in_problem1",
+         "patterns": ["I cannot sign in", "Problems with sign in", "No way to sign in",
+         "Cannot log in your website", "Cannot sign in your website", "Cannot sign in my account",
+         "Cannot log in my account", "Problems with my account", "Account problems"],
+         "responses": ["I am sorry", "Please contact 911 for help","That is not thing I can do"]
+        },
+        {"tag": "sign_in_problem2",
+         "patterns": ["I don't know how to sign in ", "I don't know how to log in "],
+         "responses": ["wow, I don't know either"]
+        },
+        {"tag": "Hackathon",
+         "patterns": ["What is a hackathon", "Hackthons", "Hackthon", "What does hackathon mean"],
+         "responses": ["Google it by yourself"]
+        },
+        {"tag": "Swamphacks_location",
+         "patterns": ["Where is swamphacks", "What is the location swamphacks", "Headquater",
+         "Swamphacks headquater", "Headquater of Swamphacks", "Where is the headquater of Swamphacks"],
+         "responses": ["Marston Library", "Somewhere in UF I think", "Somewere in Gainseville I guess"]
+        },
+        {"tag": "bring",
+         "patterns": ["What should I bring", "What should I prepare for the event", "What should I bring to the event", 
+         "What should I prepare for Swamphacks", "What should I bring to Swamphacks", "What am I supposed to bring", 
+         "What am I supposed to bring to Swamphacks", "What am I supposed to prepare", "What do I need to prepare", 
+         "What do I need to bring", "What do I need to bring to Swamphacks", "What do I need to prepare for Swamphacks"],
+         "responses": ["Your brain", "Anythign you need to build your project", "Just your laptop and yourself"]
+        },
+        {"tag": "first_time",
+         "patterns": ["First time", "This is my first time", "This is my first time for Swamphacks", 
+         "This is my first time for this event", "This is my first Hackathon", "First Hackathon", 
+         "First Hackthon for this event", "First Hackathon for Swamphacks"],
+         "responses": ["Wow, me too", "Same, what a coincidence", "Are you ready for it"]
+        },
+        {"tag": "Price",
+         "patterns": ["How much", "How much will I spend", "How much will I pay for", "How much is it", 
+         "What is the price", "What is the price for this event", "What is the price for Swamphacks", 
+         "How much for this event", "How much for Swamphacks", "How much should I pay for", "How much should I spend", 
+         "What is the cost", "What does Swamphacks cost", "Cost"],
+         "responses": ["It's free", "zero I guess", "zero"]
+        },
+        {"tag": "who_for",
+         "patterns": ["Who is Swamphacks for", "Who can attend", "Who can join", "Who can attend this event", 
+         "Who can attend Swamphacks", "Who can join Swamphack", "Who can join this event"],
+         "responses": ["Anyone", "Hacker", "You"]
+        },
+        {"tag": "volunteer",
+         "patterns": ["How can I volunteer or mentor", "How could I volunteer or mentor", "How can I volunteer", 
+         "How can I mentor", "How can I be a volunteer", "How do I volunteer", "Volunteer", "Mentor", 
+         "How can I be a mentor", "How do I do mentor"],
+         "responses": ["You can apply on our website", "Pleas go to our website for detial"]
+        },
+        {"tag": "confirm",
+         "patterns": ["When do I need to confirm by", "Confirmation", "Confirmation number", "What do I need to confirm", 
+         "What should I confirm", "What am I supposed to confirm"],
+         "responses": ["You should get a confirm email", "Please check your mailbox for confirm email", 
+         "Check your email for confirmation email"]
+        },
+        {"tag": "age",
+         "patterns": ["Can high school students attend", "High school", "Middle school", "Under 18", "Under eighteen", 
+            "Age", "What is the requirement for age", "Requirement for age", "What age", "What age can attend"],
+         "responses": ["That is no requirement for age", "Everyone is welcome", "No age requirement"]
+        }
+   ]
+}
